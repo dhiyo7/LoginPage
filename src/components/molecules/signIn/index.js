@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Modal } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import { Button, Input } from "../../atoms";
 import * as userData from "../../../db.json";
 

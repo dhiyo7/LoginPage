@@ -31,7 +31,7 @@ export default function SignUp() {
     if (data.phone > 5) {
       value = value.replace(/\D+/g, "").replace(/(\d{3})/, "($1)");
     } else {
-      value = value;
+      value = event.target.value;
     }
 
     setData({
@@ -115,7 +115,7 @@ export default function SignUp() {
         <Input
           controlId="Password"
           title="Password"
-          type="text"
+          type="password"
           name="password"
           placeholder="Password"
           onChange={handleChange}
