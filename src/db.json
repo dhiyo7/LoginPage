@@ -1,0 +1,14 @@
+[
+  {
+    "email": "olivier@mail.com",
+    "password": "12345678",
+    "fullname": "Olivie Giroudr",
+    "phone": "08343278773"
+  },
+  {
+    "email": "admin@mail.com",
+    "password": "12345678",
+    "fullname": "Admin",
+    "phone": "08767876543"
+  }
+]
